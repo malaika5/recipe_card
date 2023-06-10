@@ -68,7 +68,7 @@ class _HomeCardState extends State<HomeCard> {
                 children: [
                   const Icon(Icons.access_alarm),
                   Text(
-                    " ${widget.recipe.duration} mint",
+                    " ${widget.recipe.duration} minutes",
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 12,

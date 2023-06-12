@@ -24,6 +24,10 @@ class _HomeCardState extends State<HomeCard> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20.0),
+      ),
+      // margin: const EdgeInsets.all(5),
       child: Column(
         children: [
           Stack(
